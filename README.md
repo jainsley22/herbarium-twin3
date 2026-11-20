@@ -2,7 +2,7 @@
 
 This package preserves the uploaded Python application, AI assessment prompt, CSV/JSON exports, SQLite database, and QR label workflow.
 
-This version of Herbarium Twin is version 3, which integrates the functionality of the first two versions with further prompt development, QR code & summary updates, database updates, and refinements to Streamlit interface. AI is functional with this version, thus this should be used as the primary version of Herbarium Twin. See herbarium-twin-human-friendly for manual backup version.
+This version of Herbarium Twin is version 3, which integrates the functionality of the first two versions with further prompt development, QR code & summary updates, database updates, and refinements to Streamlit interface. 
 
 ## Setup
 
