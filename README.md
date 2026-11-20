@@ -61,7 +61,7 @@ streamlit run runnable.py --server.address 0.0.0.0
 3. On your phone, type in the internet address listed at the top of the Streamlit application on your computer. This is listed underneath the section header "Access Herbarium Twin on mobile phone", in the field titled "Local Network URL".
 4. Load the page and you are ready for use.
 
-Once you save a sample, it communicates with the computer and saves it there. Double check to make sure it is saving on your computer under "Existing Collections".
+Once you save a sample, it communicates with the computer and saves it there. Refresh the Streamlit browser if you don't see a sample you just saved on your mobile phone. Double check to make sure it is saving on your computer under "Existing Collections".
 
 **Note: If using multiple mobile phones with one computer, make sure you are not saving at the same time. Be sure to let one entry save, double-check on the computer, then you can save another entry.**
 
