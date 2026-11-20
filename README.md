@@ -56,19 +56,23 @@ streamlit run runnable.py --server.address 0.0.0.0
 ```
 
 # To connect mobile phone
-1. Make sure that your phone is connected to Darwin.
+1. Make sure that your phone is connected to Darwin WiFi network. Double check the computer is on Darwin WiFi network.
 2. Open the internet browser you use on your phone.
 3. On your phone, type in the internet address listed at the top of the Streamlit application on your computer. This is listed underneath the section header "Access Herbarium Twin on mobile phone", in the field titled "Local Network URL".
 4. Load the page and you are ready for use.
+
+Once you save a sample, it communicates with the computer and saves it there. Double check to make sure it is saving on your computer under "Existing Collections".
+
+**Note: If using multiple mobile phones with one computer, make sure you are not saving at the same time. Be sure to let one entry save, double-check on the computer, then you can save another entry.**
 
 ## Data, QR safety, frequent errors
 
 The supplied herbarium_database.db is copied byte-for-byte. The application uses this file in its own folder. Do not run two independent copies of the app against different databases if you expect synchronized records. Back up the database before transferring it.
 
-**In other words, samples are saved locally. This means that you must upload .json files, images, and/or QR codes to Google Drive folder titled "Herbarium Twin 2 Uploads" for sharing. Updates are NOT reflected across users.**
+**In other words, samples are saved locally. This means that you must upload .json files, images, and/or QR codes to Google Drive folder titled "1_2026_Herbarium_Twin_3.0" for sharing. Updates are NOT reflected across users if NOT uploaded to Google Drive.**
 
 Existing QR JPGs and captured photos were not included in the uploads. Existing QR labels may encode a previous computer's IP address and will not automatically update when moved. New box labels are created on save; existing label files are not overwritten.
-**QR codes link to full sample information.**
+**QR codes link to full sample information. Be sure to run herbarium-twin3 on the computer it was saved on, because the QR code will communicate with that local database.**
 
 Do not share your Gemini API key in a ZIP or source code. Set GEMINI_API_KEY separately on each machine.
 **Can access Gemini API key through simple search online. Be aware of Google Gemini updates, requirements, and model developments.**
@@ -102,3 +106,6 @@ python3 --version
 echo $CONDA_EXE
 ```
 This is critical if you are running other projects and have other environments as you may run into errors. You can find other models and versions of python online.
+
+For non-iPhone users, there are issues with using the "Camera" feature in "Upload Photos", as the image doesn't load. Import photos from your photo library. 
+For iPhone users, there are no issues with this feature.
