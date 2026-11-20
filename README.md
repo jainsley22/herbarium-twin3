@@ -77,8 +77,6 @@ Existing QR JPGs and captured photos were not included in the uploads. Existing 
 Do not share your Gemini API key in a ZIP or source code. Set GEMINI_API_KEY separately on each machine.
 **Can access Gemini API key through simple search online. Be aware of Google Gemini updates, requirements, and model developments.**
 
-The application was syntax-checked and the database integrity checked, but live Gemini API requests and Windows GUI operation were not tested in this environment.
-
 **Frequent Errors**
 
 To stop Streamlit running in the terminal, press ctrl-c. Try restarting the application for pretty much any error.
@@ -107,5 +105,5 @@ echo $CONDA_EXE
 ```
 This is critical if you are running other projects and have other environments as you may run into errors. You can find other models and versions of python online.
 
-For non-iPhone users, there are issues with using the "Camera" feature in "Upload Photos", as the image doesn't load. Import photos from your photo library. 
+For Samsung, Android, non-iPhone users, there are issues with using the "Camera" feature in "Upload Photos", as the image doesn't load. Import photos from your photo library. 
 For iPhone users, there are no issues with this feature.
