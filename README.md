@@ -8,15 +8,15 @@ This version of Herbarium Twin is version 3, which integrates the functionality 
 
 Install Python 3.10+ (3.11 or 3.12 recommended). Open a terminal in this folder.
 
-**To download herbarium-twin2 repository on local computer**:
+**To download herbarium-twin3 repository on local computer. Do not repeat download for future sessions, start at next step below.**:
 ```
 git clone https://github.com/jainsley22/herbarium-twin3
 ```
-**To open herbarium-twin2 in your terminal. This is the first step to every session, once downloaded.**
+**To open herbarium-twin3 in your terminal. This is the first step to every session, once downloaded.**
 ```
 cd herbarium-twin3
 ```
-**From here, it is system dependent**
+**From here, it is system dependent. Run this code every session to make sure that you are in the right environment, folder, and to launch streamlit:**
 
 
 **Windows PowerShell:**
